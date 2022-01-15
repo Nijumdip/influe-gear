@@ -50,6 +50,14 @@ nav a {
     width: 100%;
     margin-left: 50px;
 }
+button{
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: #E02C6D;
+    color: white;
+    border:none;
+    font-weight: bolder;
+}
 
 
 
