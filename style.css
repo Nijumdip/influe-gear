@@ -124,12 +124,6 @@ button {
 .fa-star.empty {
   color: #aeaeae;
 }
-/* .detail p{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-} */
-
 /* media query section two*/
 
 @media only screen and (max-width: 576px) {
@@ -159,12 +153,32 @@ button {
   color: #3a3a3a;
   margin-bottom: 30px;
 }
-.left-div-two{
-    width: 50%;
+.left-div-three{
+    width: 40%;
     margin-left: 70px;
  
   }
-.right-div-two{
+.right-div-three{
     width: 50%;
   }
  
+  /* media query section three*/
+  @media only screen and (max-width: 576px) {
+    .section-three {
+      display: flex;
+      flex-direction: column;
+    }
+    .left-div-three {
+      width: 90%;
+       margin-left: 0px;
+       margin-right: 10px;
+
+      
+    }
+  }
+  @media only screen and (min-width: 577px) and (max-width: 768px) {
+    .section-three {
+      display: flex;
+      flex-direction: column;
+    }
+  }
