@@ -13,6 +13,11 @@ header,
   align-items: center;
   color: #3a3a3a;
   margin-bottom: 30px;
+  transition: background-color 3s;
+}
+header:hover, .section-one:hover, nav a:hover{
+    background-color: rgb(30, 20, 121);
+    color: white;
 }
 header {
   justify-content: space-around;
@@ -30,7 +35,7 @@ nav li {
 }
 nav a {
   text-decoration: none;
-  color: #3a3a3a;
+  color: tomato;
   font-weight: 600;
   font-size: 14px;
 }
