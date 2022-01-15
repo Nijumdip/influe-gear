@@ -124,6 +124,14 @@ button {
 .fa-star.empty {
   color: #aeaeae;
 }
+.speacial-btn{
+    text-align: right;
+}
+.link-btn{
+    text-decoration: none;
+    color: #e02c6d;
+    font-weight: bolder; 
+}
 /* media query section two*/
 
 @media only screen and (max-width: 576px) {
