@@ -180,8 +180,6 @@ button {
       width: 90%;
        margin-left: 0px;
        margin-right: 10px;
-
-      
     }
   }
   @media only screen and (min-width: 577px) and (max-width: 768px) {
@@ -189,4 +187,13 @@ button {
       display: flex;
       flex-direction: column;
     }
+  }
+
+  /* style footer   */
+  .bottom-style{
+      text-align: center;
+      padding: 15px;
+      margin-top: 60px;
+      background-color: #0A0826;
+      color: #FFFFFF;
   }
