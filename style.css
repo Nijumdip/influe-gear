@@ -46,7 +46,7 @@ nav a {
   width: 50%;
 }
 .right-div img {
-  width: 100%;
+  width: 90%;
   margin-left: 50px;
 }
 button {
@@ -68,8 +68,8 @@ button {
   .right-div {
     margin-top: 30px;
   }
-  .right-div img{
-      width: 75%;
+  .right-div img {
+    width: 75%;
   }
 }
 @media only screen and (min-width: 577px) and (max-width: 768px) {
@@ -150,3 +150,21 @@ button {
     flex-direction: column;
   }
 }
+
+/* section three style */
+.section-three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #3a3a3a;
+  margin-bottom: 30px;
+}
+.left-div-two{
+    width: 50%;
+    margin-left: 70px;
+ 
+  }
+.right-div-two{
+    width: 50%;
+  }
+ 
